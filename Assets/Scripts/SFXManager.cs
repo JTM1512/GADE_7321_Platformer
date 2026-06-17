@@ -32,6 +32,7 @@ public class SFXManager : MonoBehaviour
 
         soundMap = new SoundHashMap();
 
+        // Initialize the sound map with sound names and corresponding audio clips
         soundMap.Add("Footstep", footstep);
         soundMap.Add("EnemySpawn", enemySpawn);
         soundMap.Add("PlayerDeath", playerDeath);
@@ -40,6 +41,7 @@ public class SFXManager : MonoBehaviour
         soundMap.Add("DroneFly", droneFly);
     }
 
+    // Method to play a sound by name
     public void PlaySound(string soundName)
     {
         AudioClip clip = soundMap.Get(soundName);

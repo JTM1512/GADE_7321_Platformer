@@ -4,6 +4,7 @@ public class SoundHashMap
 {
     private const int SIZE = 20;
 
+    // An array of linked lists to handle collisions
     private HashMapEntry[] table;
 
     public SoundHashMap()
@@ -11,6 +12,7 @@ public class SoundHashMap
         table = new HashMapEntry[SIZE];
     }
 
+    // A class to represent each entry in the hash map
     private int Hash(string key)
     {
         int hash = 0;
@@ -23,6 +25,7 @@ public class SoundHashMap
         return Mathf.Abs(hash % SIZE);
     }
 
+    // Insert a new key-value pair into the hash map
     public void Add(string key, AudioClip value)
     {
         int index = Hash(key);
@@ -60,7 +63,8 @@ public class SoundHashMap
 
         current.next = newEntry;
     }
-
+    
+    // Retrieve the value associated with a key
     public AudioClip Get(string key)
     {
         int index = Hash(key);
