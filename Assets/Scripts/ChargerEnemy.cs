@@ -13,11 +13,14 @@ public class ChargerEnemy : AIEnemyBase
     private bool warnedMissingNavMesh;
     private NavMeshPath pathToPlayer;
 
+    private Animator animator;
+
     // Initialization: get the NavMeshAgent component, set speed, prepare pathfinding, and ensure the enemy is on the NavMesh
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.speed = speed;
+        animator = GetComponent<Animator>();
         pathToPlayer = new NavMeshPath();
         TryPlaceOnNavMesh();
         BindScenePlayer();
@@ -39,10 +42,19 @@ public class ChargerEnemy : AIEnemyBase
         {
             agent.isStopped = false;
             agent.SetDestination(destination);
+
+            if (animator != null)
+            {
+                animator.SetBool("IsMoving", true);
+            }
         }
         else
         {
             agent.isStopped = true;
+            if (animator != null)
+            {
+                animator.SetBool("IsMoving", false);
+            }
         }
     }
 
