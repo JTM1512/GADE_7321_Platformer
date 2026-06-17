@@ -158,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+      objectReference: {fileID: 2100000, guid: 468ff7d9b085d1b499655ba731e855ad, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (1)
@@ -329,6 +329,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform 03
       objectReference: {fileID: 0}
+    - target: {fileID: 2767168782039997750, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 4734894070044979779, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 5296122893135564881, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 5392855436941084870, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 6504771295512196579, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 7074801629303967677, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a6106e9a5aeae354e89001e4efc2ec0b, type: 2}
+    - target: {fileID: 8743919619959007197, guid: 830794892b355ec488f17d6c3203f7b0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -827,7 +855,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 6f764c3ca54fd8e48add4f9ed3e04b79, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+      objectReference: {fileID: 2100000, guid: 468ff7d9b085d1b499655ba731e855ad, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f764c3ca54fd8e48add4f9ed3e04b79, type: 3}
       propertyPath: m_Name
       value: Gear platform
@@ -1027,10 +1055,26 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -5719543397400031942, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: -4416568882675808140, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: -2921897329690451377, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: -2589101670870198070, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: -2325696358441697187, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: -2097218277451053535, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -1051,10 +1095,22 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 5513386478252090863, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 7742780737561719692, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 8042945548056573905, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 8424073627695423409, guid: 3cff1ea538890be4abcaee284a2dfb08, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a6106e9a5aeae354e89001e4efc2ec0b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1264,6 +1320,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank (2)
@@ -1324,7 +1384,7 @@ PrefabInstance:
     - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+      objectReference: {fileID: 2100000, guid: 468ff7d9b085d1b499655ba731e855ad, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (6)
@@ -1745,7 +1805,7 @@ PrefabInstance:
     - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+      objectReference: {fileID: 2100000, guid: 468ff7d9b085d1b499655ba731e855ad, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (7)
@@ -1811,6 +1871,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank
@@ -1997,7 +2061,7 @@ PrefabInstance:
     - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+      objectReference: {fileID: 2100000, guid: 468ff7d9b085d1b499655ba731e855ad, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (5)
@@ -2066,7 +2130,7 @@ PrefabInstance:
     - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+      objectReference: {fileID: 2100000, guid: 468ff7d9b085d1b499655ba731e855ad, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (4)
@@ -2132,6 +2196,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank (6)
@@ -2326,6 +2394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Platform 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3669488335216101745, guid: 0f5de61e34844f24db1931f53ced94c2, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a6106e9a5aeae354e89001e4efc2ec0b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2418,6 +2490,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank (4)
@@ -2575,6 +2651,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank (1)
@@ -2654,11 +2734,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80a22128745190b498d39c70bc2fbe7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SFXManager
-  footstep: {fileID: 0}
+  footstep: {fileID: 8300000, guid: d3ff3a08a057d684d9b10a0eb7519711, type: 3}
   enemySpawn: {fileID: 0}
-  playerDeath: {fileID: 0}
+  playerDeath: {fileID: 8300000, guid: be1587c7e34c5e44ea9e904cfe189f83, type: 3}
   platformMove: {fileID: 0}
-  checkpointReached: {fileID: 0}
+  checkpointReached: {fileID: 8300000, guid: 83f1e0667635416459ada4b3f391dd50, type: 3}
   droneFly: {fileID: 0}
 --- !u!82 &1835607491
 AudioSource:
@@ -2906,6 +2986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank (5)
@@ -3028,6 +3112,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 88798747501857679, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 185675873420677912, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 716454259634448797, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 1297447137261956669, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
+    - target: {fileID: 3056357356527244387, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a6106e9a5aeae354e89001e4efc2ec0b, type: 2}
+    - target: {fileID: 3538781312297499651, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 5927695160174311043, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
       propertyPath: m_Name
       value: Platform 2 (1)
@@ -3072,6 +3180,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7935930863793637096, guid: 51774d476940c1040a2f8b4b2f5e4234, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3085,6 +3197,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5724468630779291041, guid: c456ff80207c5d14a94750479182b689, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 6084813431814800500, guid: c456ff80207c5d14a94750479182b689, type: 3}
       propertyPath: m_Name
       value: metal plank (3)
@@ -3182,6 +3298,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.001
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c5cac4a67e86e647b8153b7b59929f9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7443fb89effdebe4bbe95d6e289ccd74, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c5cac4a67e86e647b8153b7b59929f9, type: 3}
       propertyPath: m_Name
       value: Platform 1

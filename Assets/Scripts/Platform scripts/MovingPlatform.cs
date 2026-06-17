@@ -35,6 +35,12 @@ public class MovingPlatform : MonoBehaviour
     private Vector3 previousPosition;
     private float startOffset;
 
+    [Header("SFX")]
+    public float soundRange = 10f;
+
+    private Transform player;
+    private bool wasMovingForward = true;
+
     private void Awake()
     {
         startPosition = transform.position;
@@ -45,6 +51,13 @@ public class MovingPlatform : MonoBehaviour
         {
             startOffset = Random.Range(randomStartOffsetRange.x, randomStartOffsetRange.y);
         }
+
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
     }
 
     private void FixedUpdate()
@@ -54,7 +67,22 @@ public class MovingPlatform : MonoBehaviour
 
         // PingPong moves from 0 to distance, then back to 0
         float movementTime = Time.time + startOffset;
-        Vector3 offset = axis.normalized * Mathf.PingPong(movementTime * speed, distance);
+        float pingPongValue = Mathf.PingPong(movementTime * speed, distance);
+
+        Vector3 offset = axis.normalized * pingPongValue;
+
+        bool movingForward =
+        Mathf.Repeat(movementTime * speed, distance * 2f) < distance;
+
+        if (movingForward != wasMovingForward)
+        {
+            wasMovingForward = movingForward;
+
+            if (IsPlayerNear() && SFXManager.Instance != null)
+            {
+                SFXManager.Instance.PlaySound("PlatformMove");
+            }
+        }
 
         Vector3 targetPosition = startPosition + offset;
         // Delta is how far the platform moved this frame
@@ -115,5 +143,13 @@ public class MovingPlatform : MonoBehaviour
         {
             riders.Remove(other.transform);
         }
+    }
+
+    private bool IsPlayerNear()
+    {
+        if (player == null)
+            return false;
+
+        return Vector3.Distance(transform.position, player.position) <= soundRange;
     }
 }
