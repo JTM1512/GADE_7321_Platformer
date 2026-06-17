@@ -155,6 +155,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (1)
@@ -453,7 +457,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 892e8ab480a439d4bb266bb05f687503, type: 2}
+  - {fileID: 2100000, guid: 8e5240c4aa4a02a4c91d3149767ea60e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -820,6 +824,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6f764c3ca54fd8e48add4f9ed3e04b79, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 919132149155446097, guid: 6f764c3ca54fd8e48add4f9ed3e04b79, type: 3}
       propertyPath: m_Name
       value: Gear platform
@@ -1313,6 +1321,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (6)
@@ -1730,6 +1742,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (7)
@@ -1978,6 +1994,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (5)
@@ -2043,6 +2063,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5196370450842190079, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ebfdc0176318d71448c4b218b947ba22, type: 2}
     - target: {fileID: 5989166368604725546, guid: 5d03e22a0f015e8409a375c85ca9e565, type: 3}
       propertyPath: m_Name
       value: Gear platform (4)
