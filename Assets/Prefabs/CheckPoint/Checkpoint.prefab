@@ -79,7 +79,7 @@ PrefabInstance:
     - target: {fileID: -4683669308469848369, guid: 36bb47aa25f9c5a4d9a75871c3a1beed, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 46fd5b5fe73641540b5ce0b532a09a50, type: 2}
+      objectReference: {fileID: 2100000, guid: 159cfe5ce89a1864d825a42b71f49229, type: 2}
     - target: {fileID: 919132149155446097, guid: 36bb47aa25f9c5a4d9a75871c3a1beed, type: 3}
       propertyPath: m_Name
       value: Checkpoint
